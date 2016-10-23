@@ -3,16 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Weather App</title>
-	<meta name="Bill Ma" content="display weather">
-	
+	<meta name="weather app" content="display weather">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="script.js"></script>
 </head>
 
 <body>
-	<p id="city"></p>
-	<p id="temp"></p>
-	<em id="description"></em>
-	<button id ="button">change C/F</button>
+	<div class="container" align="center">
+		<h1>Local Weather App</h1>
+		<img id="icon" src="">
+		<p>Time: <span id="time"></span> </p>
+		<p>Location: <strong><span id="city"></span></strong></p>
+		<p>Temperature: <strong><span id="temp"></span></strong></p>
+		<p>Condition: <strong id="description"></strong></p>
+		<button id ="button">change C/F</button>
+	</div>
 </body>
 </html>
